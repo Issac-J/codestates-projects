@@ -6,85 +6,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="top-row">
-        <input type="text" name="user-input" value="0" disabled />
+      <div class="calculator-head">
+        <div class="title">❮ Calculator ❯</div>
       </div>
 
-      <div class="buttons">
-        <div class="second-row first">
-          <input type="button" value="C" />
+      <div class="calculator-main">
+        <div class="result">
+          <div class="all">0</div>
+          <div class="single">0</div>
         </div>
+      </div>
 
-        <div class="second-row second">
-          <input type="button" value="%" />
+      <div class="calculator-body buttons">
+        <div class="row">
+          <button id="clear" class="col">C</button>
+          <button id="del" class="col">DEL</button>
+          <button id="percentage" class="col mr-2">%</button>
+          <button id="division" class="col operator">÷</button>
         </div>
-
-        <div class="second-row third">
-          <input type="button" value="+/-" />
+        <div class="row">
+          <button id="six" class="col">6</button>
+          <button id="five" class="col">5</button>
+          <button id="four" class="col mr-2">4</button>
+          <button id="plus" class="col operator">+</button>
         </div>
-
-        <div class="second-row fourth">
-          <input type="button" value="/" />
+        <div class="row">
+          <button id="three" class="col">3</button>
+          <button id="two" class="col">2</button>
+          <button id="one" class="col mr-2">1</button>
+          <button id="minus" class="col operator">-</button>
         </div>
-
-        <div class="third-row first" id="n">
-          <input type="button" value="7" />
-        </div>
-
-        <div class="third-row second" id="n">
-          <input type="button" value="8" />
-        </div>
-
-        <div class="third-row third" id="n">
-          <input type="button" value="9" />
-        </div>
-
-        <div class="third-row fourth">
-          <input type="button" value="X" />
-        </div>
-
-        <div class="fourth-row first" id="n">
-          <input type="button" value="4" />
-        </div>
-
-        <div class="fourth-row second" id="n">
-          <input type="button" value="5" />
-        </div>
-
-        <div class="fourth-row third" id="n">
-          <input type="button" value="6" />
-        </div>
-
-        <div class="fourth-row fourth">
-          <input type="button" value="-" />
-        </div>
-
-        <div class="fifth-row first" id="n">
-          <input type="button" value="1" />
-        </div>
-
-        <div class="fifth-row second" id="n">
-          <input type="button" value="2" />
-        </div>
-
-        <div class="fifth-row third" id="n">
-          <input type="button" value="3" />
-        </div>
-
-        <div class="fifth-row fourth">
-          <input type="button" value="+" />
-        </div>
-
-        <div class="sixth-row first-second" id="n">
-          <input type="button" value="0" />
-        </div>
-
-        <div class="sixth-row third" id="n">
-          <input type="button" value="." />
-        </div>
-
-        <div class="sixth-row fourth">
-          <input type="button" value="=" />
+        <div class="row">
+          <button id="zero" class="col-25">0</button>
+          <button id="dot" class="col-25">.</button>
+          <span class="col-25 mr-2"></span>
+          <button id="equal" class="col-25 operator">=</button>
         </div>
       </div>
     </div>
