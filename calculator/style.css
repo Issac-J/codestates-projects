@@ -13,6 +13,7 @@ body {
 
 .container {
   margin: 50px auto;
+  padding: 3px 0;
   width: 300px;
   background: #41485a;
   border-radius: 6px;
