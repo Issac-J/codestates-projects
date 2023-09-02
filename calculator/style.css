@@ -1,9 +1,14 @@
-body {
-  box-sizing: border-box;
+*,
+::after,
+::before {
   margin: 0;
   padding: 0;
-  background-color: beige;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto Mono", monospace;
+  background-color: beige;
 }
 
 .container {
@@ -24,9 +29,9 @@ body {
 }
 
 .calculator-head .title {
-  padding: 2px 4px;
+  padding: 4px 4px;
   color: #ffffff;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: bold;
   text-transform: uppercase;
   text-indent: 15px;
