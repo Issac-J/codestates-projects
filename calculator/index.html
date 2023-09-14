@@ -5,42 +5,62 @@
     <link href="style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <div class="calculator-head">
-        <div class="title">❮ Calculator ❯</div>
-      </div>
+    <div class="app__container">
+      <nav class="navbar flex">
+        <div class="navbar__logo">
+          <img src="./logo-thing.png" alt="LOGO" />
+        </div>
+        <ul class="navbar__menu flex">
+          <li><a href="./index.html">basic</a></li>
+          <li><a href="./advanced.html">advanced</a></li>
+        </ul>
+      </nav>
 
-      <div class="calculator-main">
-        <div class="result">
-          <div class="all">0</div>
-          <div class="single">0</div>
-        </div>
-      </div>
+      <h1>Basic Calculator</h1>
 
-      <div class="calculator-body buttons">
-        <div class="row">
-          <button id="clear" class="col">C</button>
-          <button id="del" class="col">DEL</button>
-          <button id="percentage" class="col mr-2">%</button>
-          <button id="division" class="col operator">÷</button>
+      <div class="container">
+        <div class="calculator-head">
+          <div class="title">❮ Calculator ❯</div>
         </div>
-        <div class="row">
-          <button id="six" class="col">6</button>
-          <button id="five" class="col">5</button>
-          <button id="four" class="col mr-2">4</button>
-          <button id="plus" class="col operator">+</button>
+
+        <div class="calculator-main">
+          <div class="result">
+            <div class="all">0</div>
+            <div class="single">0</div>
+          </div>
         </div>
-        <div class="row">
-          <button id="three" class="col">3</button>
-          <button id="two" class="col">2</button>
-          <button id="one" class="col mr-2">1</button>
-          <button id="minus" class="col operator">-</button>
-        </div>
-        <div class="row">
-          <button id="zero" class="col-25">0</button>
-          <button id="dot" class="col-25">.</button>
-          <span class="col-25 mr-2"></span>
-          <button id="equal" class="col-25 operator">=</button>
+
+        <div class="calculator-body buttons">
+          <div class="row">
+            <button id="clear" class="col operator">C</button>
+            <button id="del" class="col operator">DEL</button>
+            <button id="percentage" class="col operator">%</button>
+            <button id="plus" class="col operator">+</button>
+          </div>
+          <div class="row">
+            <button id="seven" class="number col">7</button>
+            <button id="eight" class="number col">8</button>
+            <button id="nine" class="number col">9</button>
+            <button id="minus" class="col operator">-</button>
+          </div>
+          <div class="row">
+            <button id="four" class="number col mr-2">4</button>
+            <button id="five" class="number col">5</button>
+            <button id="six" class="number col">6</button>
+            <button id="multiple" class="col operator">*</button>
+          </div>
+          <div class="row">
+            <button id="one" class="number col mr-2">1</button>
+            <button id="two" class="number col">2</button>
+            <button id="three" class="number col">3</button>
+            <button id="division" class="col operator">/</button>
+          </div>
+          <div class="row">
+            <span class="col-25 mr-2"></span>
+            <button id="zero" class="number col-25">0</button>
+            <button id="dot" class="col-25">.</button>
+            <button id="equal" class="col-25 operator">=</button>
+          </div>
         </div>
       </div>
     </div>
